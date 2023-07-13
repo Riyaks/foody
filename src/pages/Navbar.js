@@ -69,7 +69,7 @@ function Navbar() {
       Navigate("/Oneone")
      }
      const home=(e)=>{
-      Navigate("/")
+      Navigate("/foody")
      }
   return (
 
