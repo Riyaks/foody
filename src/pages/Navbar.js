@@ -96,7 +96,7 @@ function Navbar() {
 
                     </div>
                         <li class="nav-item">
-                                <a class="nav-link" onClick={foodlogin} style={{cursor:"pointer",marginLeft:"50px"}}>
+                                <a class="nav-link" onClick={foodlogin} style={{cursor:"pointer",marginLeft:"50px"}} >
                                     <i class="fa "></i> Order now
                                 </a>
                             </li>
