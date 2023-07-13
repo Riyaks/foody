@@ -29,7 +29,9 @@ function Oneone() {
     });
  }
 
-
+ const register=(e)=>{
+  Navigate("/Register")
+ }
 
 
  //login with google
@@ -68,7 +70,7 @@ function Oneone() {
           <a href='/reset' className="fivelog">Reset password</a><br></br>
           <p style={{marginLeft:"100px",marginTop:"12px"}}>---- or ----</p>
           <button type='button' className='btn btn-danger' style={{width:"250px",marginLeft:"38px",marginRight:"45px"}} onClick={googleSignin}><FaGoogle/>  Login with Google</button><br></br>
-          <p style={{marginLeft:"40px"}}>don't have an account? <a href='/Register' style={{color:"red"}}>register</a> </p>
+          <p style={{marginLeft:"40px"}}>don't have an account? <a onClick={register} style={{color:"red"}}>register</a> </p>
         </form>
         </div>
     </div>
