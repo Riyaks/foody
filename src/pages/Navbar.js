@@ -65,6 +65,12 @@ function Navbar() {
      const carts=(e)=>{
       Navigate("/Cart")
      }
+     const oneone=(e)=>{
+      Navigate("/Oneone")
+     }
+     const home=(e)=>{
+      Navigate("/")
+     }
   return (
 
 <>
@@ -86,7 +92,7 @@ function Navbar() {
    <div class="col-md-5  my-auto">
                         <ul class="nav justify-content-end">
                         <div class="kkk">
-                       <a href='/'> <img src='./images/icon.png' class="brand-name rounded-circle stylenav"  style={{width:"60px",height:"60px",cursor:"pointer"}}/></a>
+                       <a onClick={home}> <img src='./images/icon.png' class="brand-name rounded-circle stylenav"  style={{width:"60px",height:"60px",cursor:"pointer"}}/></a>
 
                     </div>
                         <li class="nav-item">
@@ -105,7 +111,7 @@ function Navbar() {
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/Oneone">
+                                <a class="nav-link" onClick={oneone}>
                                     <i class="fa fa-key"></i> Login
                                 </a>
                             </li>
