@@ -30,7 +30,7 @@ function Oneone() {
  }
 
  const register=(e)=>{
-  Navigate("/Register")
+  navigate("/Register")
  }
 
 
