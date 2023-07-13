@@ -62,6 +62,9 @@ function Navbar() {
     const contacts=(e)=>{
       Navigate("/Contacts")
      }
+     const carts=(e)=>{
+      Navigate("/Cart")
+     }
   return (
 
 <>
@@ -83,7 +86,7 @@ function Navbar() {
    <div class="col-md-5  my-auto">
                         <ul class="nav justify-content-end">
                         <div class="kkk">
-                       <a href='http://Riyaks.github.io/foody'> <img src='./images/icon.png' class="brand-name rounded-circle stylenav"  style={{width:"60px",height:"60px",cursor:"pointer"}}/></a>
+                       <a href='/'> <img src='./images/icon.png' class="brand-name rounded-circle stylenav"  style={{width:"60px",height:"60px",cursor:"pointer"}}/></a>
 
                     </div>
                         <li class="nav-item">
@@ -97,7 +100,7 @@ function Navbar() {
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/Cart">
+                                <a class="nav-link" onClick={carts} >
                                     <i class="fa fa-shopping-cart"></i> Cart 
                                 </a>
                             </li>
