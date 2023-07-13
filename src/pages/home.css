@@ -1,0 +1,237 @@
+
+.two{
+    background-color: black;
+    height: 500px;
+  overflow: auto;
+   
+   }
+.one{
+    background-image: url(https://images.unsplash.com/photo-1586190848861-99aa4a171e90?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.as{
+    margin-top: 60px;
+}
+.ass{
+    margin-top: 60px;
+  
+}
+@media only screen and (max-width: 700px) {
+   .ass{
+     margin-top: 260px;
+    }
+  }
+.capt{
+    font-size: 50px;
+    color: white;
+    margin-top: 60px;
+    font-family: cursive;
+    line-height: 80px;
+   
+}
+
+.demotext{
+    color: white;
+    font-weight: lighter;
+    line-height: 30px;
+    
+    }
+.imgitm{
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+}
+.imgitm:hover{
+        transform: scale(1.4);
+    margin-top: 30px;
+}
+.imgtxt{
+    font-size: 15px;
+    font-weight: 900;
+    margin-left: 24px;
+    margin-top: 14px;
+}
+.two1{
+    background-image: url(https://thumbs.dreamstime.com/b/food-delivery-man-delivering-food-scooter-food-delivery-man-delivering-food-scooter-isolated-white-background-176181732.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+  
+}
+
+.capt1{
+    color: red;
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 100px;
+    font-style: italic;
+}
+.demotext1{
+    font-weight: 600;
+    line-height: 30px;
+    margin-left: 30px;
+    margin-top: 20px;
+
+}
+.nn{
+    font-size: 40px;
+    font-family: fantasy;
+    text-align: center;
+}
+.nnn{
+    color: red;
+    
+}
+.nnnn{
+    text-align: center;
+}
+.imgg{
+    width:200px;
+    height: 200px;
+    margin-top: 60px;
+}
+.asd{
+    justify-content: center;
+}
+.aa{
+    color: red;
+    font-size: 50px;
+    font-family: fantasy;
+    font-weight: 300;
+    text-align: center;
+}
+.weqr{
+    height: 450px;
+    border-radius: 20px;
+    margin-top: 30px;
+   
+     }
+     .weqr:hover{
+        transform: scale(1.1);
+    margin-top: 30px;
+     }
+
+    
+.card-img-top{
+    margin-top:  10px;
+   }
+   .aaa{
+    width: 100px;
+    height: 150px;
+    margin-top: 10px;
+   }
+ .aaaa{
+    color: red;
+ }
+.olk{
+    background-image: url(https://cdn.pixabay.com/photo/2017/02/15/10/39/salad-2068220__340.jpg);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    height: 400px;
+    color: white;
+}
+.lll{
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-family: cursive;
+    text-shadow: 16px 7px 5px black;
+    
+}
+.qweeg{
+    width: 170px;
+    margin-left: 200px;
+    height: 50px;
+}
+.qweeg:hover{
+    color: white;
+    font-size: 20px;
+}
+.gg{
+ 
+    margin-top: 50px;
+    margin-bottom: 12px;
+}
+.iiu{
+    margin-bottom: 70px;
+    margin-left: 100px;
+}
+.xcv{
+    margin-top: 80px;
+   }
+.fdg{
+    color: white;
+    background-color: black;
+   
+
+}
+.kdg{
+    color: white;
+    background-color: black;
+    margin-left: 50px;
+}
+.klm{
+    font-size: 30px;
+   margin-right: 20px;
+   margin-left: 20px;
+}
+.jhg{
+margin-left: 150px;
+ font-size: 35px;
+font-weight: 800;
+ font-family: 'Times New Roman', Times, serif;
+}
+.hjkl0{
+    display: flex;
+    flex-direction: row;
+}
+.uuu{
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+.footer-area{
+    padding: 40px 0px;
+    background-color: #2874f0;
+    color: #fff;
+}
+.footer-area a{
+    text-decoration: none;
+}
+.footer-area .footer-heading{
+    font-size: 24px;
+    color: #fff;
+}
+.footer-area .footer-underline{
+    height: 1px;
+    width: 70px;
+    background-color: #ddd;
+    margin: 10px 0px;
+}
+.copyright-area{
+    padding: 14px 0px;
+    background-color: #262626;
+}
+.copyright-area p{
+    margin-bottom: 0px;
+    color: #fff;
+}
+.copyright-area .social-media{
+    text-align: end;
+}
+.copyright-area .social-media a{
+    margin: 0px 10px;
+    color: #fff;
+    width: 20px;
+}

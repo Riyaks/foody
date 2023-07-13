@@ -1,0 +1,79 @@
+
+const Data = {
+    productData:[
+        {
+        id:1,
+        img:'https://images.immediate.co.uk/production/volatile/sites/30/2020/12/Noodles-with-chilli-oil-eggs-6ec34e9.jpg?resize=768,574',
+        title:'Noodles',
+        desc:'egg',
+        price:150,
+        },
+        {
+            id:2,
+            img:'https://images.radio.com/aiu-media/GettyImages494788722-77597929-b594-4edb-a616-ddbc8f09b3aa.jpg',
+            title:'Chicken',
+            desc:'fried',
+            price:150,
+            },
+            {
+                id:3,
+                img:'https://www.india.com/wp-content/uploads/2021/07/paneerr.jpg',
+                title:'Sandwitch',
+                desc:'veg',
+                price:150,
+                },
+                {
+                    id:4,
+                    img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoFdx2RcCWPKQ4xZ6TtgVUD09kQ2IPKhZFoA&usqp=CAU',
+                    title:'Chicken',
+                    desc:'curry',
+                    price:150,
+                    },
+                    {
+                        id:5,
+                        img:'https://static.india.com/wp-content/uploads/2021/07/eating-paneer.jpg?impolicy=Medium_Resize&w=1200&h=800',
+                        title:'Chicken',
+                        desc:'grilled',
+                        price:150,
+                        },
+                        {
+                            id:6,
+                            img:'https://manoosh0.files.wordpress.com/2014/03/8.jpg',
+                            title:'Pizza',
+                            desc:'veg',
+                            price:150,
+                            },
+                            {
+                                id:7,
+                                img:'https://c.ndtvimg.com/2022-06/vjmjk3n8_biryani_625x300_18_June_22.jpeg?im=FaceCrop,algorithm=dnn,width=1200,height=886',
+                                title:'Rice',
+                                desc:'fried rice',
+                                price:150,
+                                },
+                                {
+                                    id:8,
+                                    img:'https://www.skymetweather.com/themes/skymet/images/gallery/toplists/Top-Not-to-miss-food-items-in-Monsoon/4.jpg',
+                                    title:'Samoosa',
+                                    desc:'veg',
+                                    price:150,
+                                    },
+                                    {
+                                        id:9,
+                                        img:'https://www.allrecipes.com/thmb/BY8CcWT0JZOjFcWeIem9Fik1x78=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/9266919-c023924050f9406bab6eccea1664e88b.jpg',
+                                        title:'Cake',
+                                        desc:'chocolate',
+                                        price:150,
+                                        },
+                                        {
+                                            id:10,
+                                            img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAfBquXGquIZgPwM5YAAg7a1KFN8pk6g2IAwdrJRtdWL7G3Fcx6dBDEmOUABTrdCez8xA&usqp=CAU',
+                                            title:'Burger',
+                                            desc:'chicken',
+                                            price:150,
+                                            },
+
+                
+    ],
+    
+};
+export default Data;

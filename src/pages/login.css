@@ -1,0 +1,48 @@
+.threelog{
+    font-family: robosto;
+    text-align: center;
+    color: orange;
+    font-weight: 700;
+    font-size: 35px;
+    margin-top: 20px;
+}
+.fourlog{
+    width: 250px;
+    padding:5px;
+    border: 1px solid black;
+    margin-left: 38px;
+    margin-right: 45px;
+    margin-top: 18PX;
+   
+}
+.fivelog{
+    margin-left: 38px;
+    text-decoration: none;
+    color: black;
+
+}
+.fivelog:hover{
+    color: blue;
+
+}
+.margins{
+    margin-left: 250px;
+}
+@media only screen and (max-width: 600px) {
+    .margins{
+        margin-left: 50px;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .two{
+        margin-left: 50px;
+    }
+  }
+  .twomargins{
+    margin-left: 200px;
+  }
+  @media only screen and (max-width: 600px) {
+    .twomargins{
+        margin-left: 70px;
+    }
+  }
