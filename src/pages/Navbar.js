@@ -59,6 +59,9 @@ function Navbar() {
     const foodlogin=(e)=>{
      Navigate("/Foods")
     }
+    const contacts=(e)=>{
+      Navigate("/Contacts")
+     }
   return (
 
 <>
@@ -89,7 +92,7 @@ function Navbar() {
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/Contacts">
+                                <a class="nav-link" onClick={contacts} >
                                     <i class="fa "></i> Contacts
                                 </a>
                             </li>
