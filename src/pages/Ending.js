@@ -3,8 +3,9 @@ import './home.css';
 function Ending() {
   return (
     <>
+
      <div>
-        <div class="footer-area " style={{backgroundColor:"orange"}}>
+        <div class="footer-area " style={{backgroundColor:"rgb(57, 55, 55)"}}>
             <div class="container ">
                 <div class="row">
                     <div class="col-md-3">

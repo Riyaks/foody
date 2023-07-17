@@ -24,22 +24,26 @@ return (
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         </head>
 		<body>
-		<div class="ass row">
-<div class="one col-12 col-md-6">
-
-</div>
-<div class="two col-12 col-md-6">
-	<p class="capt">Order Within Seconds <br></br>And Delivery on Time</p>
+		
+	<div style={{backgroundColor:"black",width:"100%"}}>
+	<div className='row'>
+		<div className='col-12 col-md-6' >
+<p class="capt" style={{marginLeft:"20px"}}>Order Within Seconds <br></br>And Delivery on Time</p>
 	<br></br>
-	<p class="demotext">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+	
+	<p class="demotext" style={{marginLeft:"20px"}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p></div>
+	<div className='col-12 col-md-6' style={{marginBottom:"150px"}} >
+		<center>
+	<img src='https://img.freepik.com/premium-photo/beautiful-burger-with-cheese-salad-ai-generative_849906-236.jpg' style={{width:"380px"}}></img></center></div>
 </div>
-</div>	
+</div>
+
 
 
 <br></br>
 <section>
 
-<div class="as row">
+<div class="as row" style={{marginTop:"100px"}}>
 <div class="onee col-12 col-md-6">
 <p class="capt1">Food at Your Door</p>
 	<br></br>
@@ -57,6 +61,7 @@ Lorem Ipsum is simply dummy ndustry's stans, when an unknown printer took a gall
 	<div class="jumbotron ">
  <div class="container">
 	<h2>Our Categories</h2>
+	<center>
     <div class="row">
 		<div class="col-12  col-sm-6 col-md-4 col-lg-3 col-xl-2">
 			<img src="https://images.unsplash.com/photo-1597715469889-dd75fe4a1765?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzB8fHBpenphfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="imgitm rounded-circle"></img>
@@ -107,11 +112,13 @@ Lorem Ipsum is simply dummy ndustry's stans, when an unknown printer took a gall
 			<p class="imgtxt">Fish</p>
 		</div>
 	</div>
+	</center>
  </div>
 	</div>
 </section>
 <br></br>
 <section>
+	<center>
 <div class="container jumbotron-fluid">
 	<p class="nn">Just Sit Back At Home<br></br>
 	We Will<span class="nnn"> TAKE Care</span></p>
@@ -125,6 +132,7 @@ Lorem Ipsum is simply dummy ndustry's stans, when an unknown printer took a gall
 		<img src="https://www.pngitem.com/pimgs/m/248-2484145_home-delivery-image-png-transparent-png.png" class="imgg"></img>
 	</div>
 </div>
+</center>
 </section><br></br><br></br>
 
 <section>

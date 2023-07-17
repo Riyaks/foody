@@ -1,28 +1,17 @@
 
-.two{
-    background-color: black;
-    height: 500px;
-  overflow: auto;
-   
-   }
-.one{
-    background-image: url(https://images.unsplash.com/photo-1586190848861-99aa4a171e90?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80);
-    height: 500px;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-   
-}
+
 .as{
     margin-top: 60px;
 }
 .ass{
     margin-top: 60px;
+    width: 100%;
   
 }
 @media only screen and (max-width: 700px) {
    .ass{
      margin-top: 260px;
+     
     }
   }
 .capt{

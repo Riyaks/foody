@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react'
 import './styleone.css'
 //import 'bootstrap/dist/css/bootstrap.css';
-import {FaSearch, FaSignOutAlt, FaUserCircle } from 'react-icons/fa';
+import {FaBars, FaCartPlus, FaSearch, FaSignOutAlt, FaUserCircle } from 'react-icons/fa';
 import { useNavigate } from 'react-router-dom';
 import { onAuthStateChanged, signOut } from 'firebase/auth';
 import { auth } from './firebase';
@@ -78,11 +78,11 @@ function Navbar() {
 <head>
     <meta charset="utf-8"></meta>
     <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
-    <title>Ecommerce Navbar Design</title>
+    <title>Ecommerce</title>
 
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="style.css"/>
+   
 </head>
 <div class="main-navbar shadow-sm sticky-top ">
         <div class="top-navbar " style={{backgroundColor:"orange"}}>
@@ -137,9 +137,7 @@ function Navbar() {
         
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
-
-    
+    {/* <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>  */}
 
 
 
