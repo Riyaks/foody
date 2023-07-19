@@ -41,37 +41,44 @@ const handleMouseOver = value =>{
 
     </div>
   </div>
-		<div style={{backgroundColor:'grey'} }>
+		<div >
 			<div class="max"></div><br></br><br></br>
 		<div class="op0 container " >
-			<div class= "row">
-				<div class="col-md-6">
-					<img src="https://4.bp.blogspot.com/-lnM6Szj8rI8/WWSREgSjjFI/AAAAAAAAAHI/OLneHeewSDcC3xfdW4n1yyHwNkXa9ja7ACLcBGAs/s1600/book-a-table-in-restaurant-online.jpg" width={600} class="img-thumbnail mt-3" style={{borderRadius:'17px'} }></img>
-				</div>
-				<div class="col-md-6 ">
-					<form  style={{marginTop:'30px'} }>
-						<table class="col-md-6 ">
-							<tr >
-							<th><input class="op00 " type="text" placeholder='name' ></input></th>
-							<th><input class="op00" type="text" placeholder='email'></input></th>
-							</tr>
-							<tr >
-								<th><input class="op00" type="text" placeholder='number' ></input></th>
-								<th><input class="op00" type="text" placeholder='food name'></input></th>
-							</tr>
-							</table>
-							<textarea class="ml-4" name="comment" cols="51" rows="4" placeholder='special requirements...' style={{borderRadius:'6px'} }></textarea>
-							<br></br>
-								<button  class="btn bg-dark mt-3 ml-4" style={{color:'white',marginBottom:"30px"}} onClick={booking}>Book Now</button>
-					</form>
-					</div>
-			</div>
+		<div class=" container" >
+    <div class="row">
+      <div class="col-md-5">
+        <img src="https://4.bp.blogspot.com/-lnM6Szj8rI8/WWSREgSjjFI/AAAAAAAAAHI/OLneHeewSDcC3xfdW4n1yyHwNkXa9ja7ACLcBGAs/s1600/book-a-table-in-restaurant-online.jpg" class="img-thumbnail mt-3 img-fluid"
+          style={{borderRadius: "17px"}}/>
+      </div>
+      <div class="col-md-2 ">
+        <form style={{marginTop: "30px"}}>
+          <table >
+           
+              <tr>
+                <th ><input class="op00" type="text" placeholder="name"></input></th>
+                <th ><input class="op00" type="text" placeholder="email"></input></th>
+              </tr>
+         
+              <tr>
+                <th ><input class="op00" type="text" placeholder="number"></input></th>
+                <th ><input class="op00" type="text" placeholder="food name"></input></th>
+              </tr>
+       
+          </table>
+          <textarea name="comment" cols="51" rows="4" placeholder="special requirements..."
+            style={{borderRadius:" 6px",maxWidth: "90%",marginLeft:"15px"}}></textarea>
+          <br></br>
+          <button class="btn bg-dark mt-3" style={{color:" white", marginBottom: "30px",marginLeft:"30px"}}>Book Now</button>
+        </form>
+      </div>
+    </div>
+  </div>
 		</div>
 		<br></br>
 		<section>
-			<div class="container">
+			<div class="container" style={{maxWidth:"95%"}}>
 			<div class=" row " style={{marginTop:'150px'} }>
-				<div class="col-12 col-md-6">
+				<div class="col-12 col-md-6" >
 				<h1 style={{color:'white',fontFamily:'times new roman',fontSize:'90px', textShadow:'7px 5px 6px black'}}>Any suggestions<span>?</span></h1>
 			     </div>
 			   <div class="col-12 col-md-6">

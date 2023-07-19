@@ -11,7 +11,7 @@ import Data4 from './Data4';
 import Data5 from './Data5';
 import Carousel from 'react-bootstrap/Carousel';
 import { useNavigate } from 'react-router-dom';
-import { initialState } from 'react-use-cart';
+
 function Foods() {
 	
 	const navigate = useNavigate()
@@ -93,6 +93,7 @@ let dataSearch5 =Data5.productData.filter(item =>{
     </Carousel>
     </div>
 	<section>
+		<center>
     <div class="jumbotron ">
      <div class="row">
 		<div class="col-12  col-sm-6 col-md-4 col-lg-3 col-xl-2">
@@ -159,7 +160,7 @@ let dataSearch5 =Data5.productData.filter(item =>{
 </div>
 </div>
 </section>
-
+</center>
 </section>
     <h1 className='text-center mt-3'>All Items</h1>
 	  <section className='py-4 container'>
@@ -212,21 +213,28 @@ let dataSearch5 =Data5.productData.filter(item =>{
 		</div>
 	</div>
 </section>
+
 <section>
-	<div class="row ">
-<div class="cvcv  col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 ">
-			<img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/02ef7095700855.5e9dc45a76dfb.png" width={400}></img>
-		</div>
-		<div className='ml0 row col-8 justify-content-center '>
+	
+<div style={{backgroundColor:"black",width:"100%"}}>
+	<div className='row'>
 		
+	<div className='ml0 row col-8 justify-content-center '>
 			{dataSearch4.map((item,index)=>{
-				return(
-                    <Itemcard img={item.img} title={item.title} desc={item.desc} price={item.price} item={item} key={index}/>
-				)
-			})}
-			</div>
+			return(
+			
+				<Itemcard img={item.img} title={item.title} desc={item.desc} price={item.price} item={item} key={index}/>
+			)
+		})}
 		
-		</div>	
+		</div>
+	
+	<div className='cvcv  col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 ' style={{marginBottom:"150px"}} >
+		<center>
+	<img src='https://mir-s3-cdn-cf.behance.net/project_modules/1400/02ef7095700855.5e9dc45a76dfb.png' style={{width:"380px"}}></img></center></div>
+</div>
+</div>
+
 </section>
 <section >
 		<div className='row justify-content-center'>

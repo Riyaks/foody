@@ -198,7 +198,7 @@ Lorem Ipsum is simply dummy ndustry's stans, when an unknown printer took a gall
 </div>
 </section>
 <section>
-<div class="olk container"><br></br><br></br><br></br>
+<div class="olk container" style={{maxWidth:"90%"}}><br></br><br></br><br></br>
 	<p className='lll'>Book Your Table Now</p><br></br>
 	<button onClick={onbook} class="qweeg btn bg-danger" >Book Now<span class="ml-2"><FaUtensils/></span></button>
 </div>
