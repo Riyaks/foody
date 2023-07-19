@@ -42,19 +42,18 @@ const handleMouseOver = value =>{
     </div>
   </div>
 		<div >
-			<div class="max"></div><br></br><br></br>
-		<div class="op0 container " >
-		<div class=" container" >
+	<div class="op0 container " >
+		{/* <div class=" container" >
     <div class="row">
       <div class="col-md-5">
         <img src="https://4.bp.blogspot.com/-lnM6Szj8rI8/WWSREgSjjFI/AAAAAAAAAHI/OLneHeewSDcC3xfdW4n1yyHwNkXa9ja7ACLcBGAs/s1600/book-a-table-in-restaurant-online.jpg" class="img-thumbnail mt-3 img-fluid"
           style={{borderRadius: "17px"}}/>
       </div>
       <div class="col-md-2 ">
+		<center>
         <form style={{marginTop: "30px"}}>
           <table >
-           
-              <tr>
+            <tr>
                 <th ><input class="op00" type="text" placeholder="name"></input></th>
                 <th ><input class="op00" type="text" placeholder="email"></input></th>
               </tr>
@@ -66,24 +65,54 @@ const handleMouseOver = value =>{
        
           </table>
           <textarea name="comment" cols="51" rows="4" placeholder="special requirements..."
-            style={{borderRadius:" 6px",maxWidth: "90%",marginLeft:"15px"}}></textarea>
+            style={{borderRadius:" 6px",marginLeft:"10px"}}></textarea>
           <br></br>
           <button class="btn bg-dark mt-3" style={{color:" white", marginBottom: "30px",marginLeft:"30px"}}>Book Now</button>
         </form>
+		</center>
       </div>
     </div>
-  </div>
+  </div> */}
+  	<div>
+	<div className='row'>
+		<div className='col-12 col-md-6' style={{marginTop:"90px"}}>
+			<center>
+		<form style={{marginTop: "30px"}}>
+          <table >
+            <tr>
+                <th ><input class="op00" type="text" placeholder="name"></input></th>
+                <th ><input class="op00" type="text" placeholder="email"></input></th>
+              </tr>
+         
+              <tr>
+                <th ><input class="op00" type="text" placeholder="number"></input></th>
+                <th ><input class="op00" type="text" placeholder="food name"></input></th>
+              </tr>
+       
+          </table>
+          <textarea name="comment" cols="51" rows="4" placeholder="special requirements..."
+            style={{borderRadius:" 6px",marginLeft:"10px"}}></textarea>
+          <br></br>
+          <button class="btn bg-dark " style={{color:" white", marginBottom: "30px",marginTop:"30px",float:"left",marginLeft:"80px"}}>Book Now</button>
+        </form></center></div>
+	<div className='col-12 col-md-6' style={{marginBottom:"150px"}} >
+		<center>
+	<img src='https://4.bp.blogspot.com/-lnM6Szj8rI8/WWSREgSjjFI/AAAAAAAAAHI/OLneHeewSDcC3xfdW4n1yyHwNkXa9ja7ACLcBGAs/s1600/book-a-table-in-restaurant-online.jpg' class="img-thumbnail  img-fluid"  style={{marginTop:"80px",borderRadius: "17px"}}></img></center></div>
+</div>
+</div>
+
 		</div>
 		<br></br>
 		<section>
+			<center>
 			<div class="container" style={{maxWidth:"95%"}}>
 			<div class=" row " style={{marginTop:'150px'} }>
 				<div class="col-12 col-md-6" >
-				<h1 style={{color:'white',fontFamily:'times new roman',fontSize:'90px', textShadow:'7px 5px 6px black'}}>Any suggestions<span>?</span></h1>
+				<h1 style={{color:'white',fontFamily:'times new roman',fontSize:'8vw', textShadow:'6px 3px 5px black'}}>Any suggestions<span>?</span></h1>
 			     </div>
 			   <div class="col-12 col-md-6">
-				<textarea class="ml-2 mt-5 " name="comment" cols="51" rows="6" placeholder='suggestions here...' style={{borderRadius:'6px'} }></textarea>
-					 <div class="ml-2 oop00" >
+				<textarea class="ml-2 mt-5 " name="comment" cols="51" rows="6" placeholder='suggestions here...' style={{borderRadius:'6px',maxWidth:"70%"} }></textarea>
+					 <div class="ml-2 oop00"  style={{maxWidth:"70%"} }>
 					{stars.map((_, index) => {
 						return (
 							<FaStar key={index} style={{ cursor:"pointer"}}
@@ -91,13 +120,14 @@ const handleMouseOver = value =>{
 							onClick={() => handleClick(index + 1)}/>
 						)
 					})}
-					<button class="btn lol00" onClick={suggestions}>submit</button>
+					<button class="btn lol00" style={{backgroundColor:"red"} } onClick={suggestions}>submit</button>
 					</div>
 					
 				
 					</div>
 					</div>
 					</div>
+					</center>
 					</section>
 <br></br><br></br>
 <section>
