@@ -21,9 +21,7 @@ const handleMouseOver = value =>{
  const handleMouseLeave = () =>{
 	setHoverValue(undefined)
  }
- const suggestions = () =>{
-	alert("Thanks for your support.")
- }
+
  const booking = () =>{
 	alert("Your table has been booked.Have a good day.")
  }
@@ -43,39 +41,10 @@ const handleMouseOver = value =>{
   </div>
 		<div >
 	<div class="op0 container " >
-		{/* <div class=" container" >
-    <div class="row">
-      <div class="col-md-5">
-        <img src="https://4.bp.blogspot.com/-lnM6Szj8rI8/WWSREgSjjFI/AAAAAAAAAHI/OLneHeewSDcC3xfdW4n1yyHwNkXa9ja7ACLcBGAs/s1600/book-a-table-in-restaurant-online.jpg" class="img-thumbnail mt-3 img-fluid"
-          style={{borderRadius: "17px"}}/>
-      </div>
-      <div class="col-md-2 ">
-		<center>
-        <form style={{marginTop: "30px"}}>
-          <table >
-            <tr>
-                <th ><input class="op00" type="text" placeholder="name"></input></th>
-                <th ><input class="op00" type="text" placeholder="email"></input></th>
-              </tr>
-         
-              <tr>
-                <th ><input class="op00" type="text" placeholder="number"></input></th>
-                <th ><input class="op00" type="text" placeholder="food name"></input></th>
-              </tr>
-       
-          </table>
-          <textarea name="comment" cols="51" rows="4" placeholder="special requirements..."
-            style={{borderRadius:" 6px",marginLeft:"10px"}}></textarea>
-          <br></br>
-          <button class="btn bg-dark mt-3" style={{color:" white", marginBottom: "30px",marginLeft:"30px"}}>Book Now</button>
-        </form>
-		</center>
-      </div>
-    </div>
-  </div> */}
+
   	<div>
 	<div className='row'>
-		<div className='col-12 col-md-6' style={{marginTop:"90px"}}>
+		<div className='col-12 col-md-6' style={{marginTop:"50px"}}>
 			<center>
 		<form style={{marginTop: "30px"}}>
           <table >
@@ -90,8 +59,8 @@ const handleMouseOver = value =>{
               </tr>
        
           </table>
-          <textarea name="comment" cols="51" rows="4" placeholder="special requirements..."
-            style={{borderRadius:" 6px",marginLeft:"10px"}}></textarea>
+          <textarea name="comment" className='opok'  rows="4" placeholder="special requirements..."
+            style={{borderRadius:" 6px"}}></textarea>
           <br></br>
           <button class="btn bg-dark " style={{color:" white", marginBottom: "30px",marginTop:"30px",float:"left",marginLeft:"80px"}}>Book Now</button>
         </form></center></div>
@@ -120,7 +89,7 @@ const handleMouseOver = value =>{
 							onClick={() => handleClick(index + 1)}/>
 						)
 					})}
-					<button class="btn lol00" style={{backgroundColor:"red"} } onClick={suggestions}>submit</button>
+					
 					</div>
 					
 				

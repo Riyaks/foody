@@ -31,7 +31,7 @@ function Cart() {
                                     return(
                                         <tr key={index}>
                                             <td>
-                                                <img  src={item.img} style={{height:'5rem', width:'6rem',borderRadius:'14px'} }  />
+                                                <img  src={item.img} style={{height:'5rem', width:'5rem',borderRadius:'14px'} }  />
                                             </td>
                                             <td>{item.title}</td>
                                             <td>{item.price}</td>

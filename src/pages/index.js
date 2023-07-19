@@ -178,9 +178,13 @@ Lorem Ipsum is simply dummy ndustry's stans, when an unknown printer took a gall
 <section>
 <div class="gg container">
 <div class="row">
+	<center>
 	<div class="col-lg-6 col-md-3">
+		<center>
 		<img class="iiu" src="./images/phone.jpg" width={300}></img>
+		</center>
 	</div>
+	</center>
 	<div className='col-lg-6 col-md-3'>
 		<p class="xcv"><span class="jhg">Download App</span><br></br><br></br>oalley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy ndustry's stans, when an unknown prstans, when an unknown printer took a galley of type and scrambled.oalley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy ndustry's stans, when an unknown prstans, when an unknown printer took a galley of type and scrambled</p>
 		<br></br>
